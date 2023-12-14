@@ -1,0 +1,357 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "timestamp": "2023-12-07T17:49:40.458+00:00",
+    "meta": {
+        "lastUpdated": "2023-12-07T17:49:40.458+00:00",
+        "versionId": "abe0a96c-f042-4fc7-ae0b-9b360671c413"
+    },
+    "entry": [
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/7101df9b-2916-4350-9236-5338c1e27140",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "7101df9b-2916-4350-9236-5338c1e27140",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Aisha Khatun </b> female, DoB: 1990-05-20 ( id: 123456)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"tel:+1(555)555-1234\">+1(555) 555-1234</a></li><li><a href=\"mailto:aisha.khatun@example.com\">aisha.khatun@example.com</a></li><li>123 Main St Anytown CA 12345 USA </li></ul></td></tr></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://hospital.example.org/patients",
+                        "value": "PatientMCampbell"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Campbell",
+                        "given": [
+                            "Michael"
+                        ],
+                        "prefix": [
+                            "Mr."
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+1 (737) 123-3456",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "michaelcampbell@example.com",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1995-10-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 Main St"
+                        ],
+                        "city": "Austin",
+                        "state": "TX",
+                        "postalCode": "78746",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "versionId": "dfdfcd2b-8af3-4c45-9d3c-991e7a1a5329",
+                    "lastUpdated": "2023-12-07T16:11:28.969+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/735807fc-721f-4a4c-9555-b9594f5d6b2d",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "735807fc-721f-4a4c-9555-b9594f5d6b2d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Michael Campbell </b> male, DoB: 1995-10-23 ( id: 123456)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"tel:+1(555)555-1234\">+1(555) 555-1234</a></li><li><a href=\"mailto:michaelcampbell@example.com\">michaelcampbell@example.com</a></li><li>1234 Main St Austin TX 78746 USA </li></ul></td></tr></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://hospital.example.org/patients",
+                        "value": "PatientMCampbell"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Campbell",
+                        "given": [
+                            "Michael"
+                        ],
+                        "prefix": [
+                            "Mr."
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+1 (737) 123-3456",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "michaelcampbell@example.com",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1995-10-23",
+                "address": [
+                    {
+                        "line": [
+                            "123 Main St"
+                        ],
+                        "city": "Austin",
+                        "state": "TX",
+                        "postalCode": "78746",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "versionId": "5e18aa5c-3634-450d-b536-fef36db6988c",
+                    "lastUpdated": "2023-12-07T15:13:00.042+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/8c7a18b3-9487-446a-82f2-0e84da3bcb05",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "8c7a18b3-9487-446a-82f2-0e84da3bcb05",
+                "name": [
+                    {
+                        "family": "UpdatedFamilyName",
+                        "given": [
+                            "test_first_name1"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/bbraun_organization_id"
+                },
+                "meta": {
+                    "versionId": "69e6d71e-6fc6-4aef-9bc8-f5888843a8d4",
+                    "lastUpdated": "2023-12-07T14:49:20.945+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/9ed6e2bb-7eee-482f-950b-dcddc7f43128",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "test_family_name2",
+                        "given": [
+                            "test_first_name2"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/ohterOrganization"
+                },
+                "id": "9ed6e2bb-7eee-482f-950b-dcddc7f43128",
+                "meta": {
+                    "versionId": "de58085f-4f5b-4d28-8a84-bd71f550211d",
+                    "lastUpdated": "2023-12-07T14:49:18.404+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/7b3cd306-172d-42d1-96c4-706bba0f1eb3",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "7b3cd306-172d-42d1-96c4-706bba0f1eb3",
+                "name": [
+                    {
+                        "family": "UpdatedFamilyName",
+                        "given": [
+                            "test_first_name1"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/bbraun_organization_id"
+                },
+                "meta": {
+                    "versionId": "a681e4e1-f3b9-4fcf-ae07-f72127e4b1c3",
+                    "lastUpdated": "2023-12-07T13:47:09.611+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/ba46524d-53e6-4845-bc19-039e943165f9",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "test_family_name2",
+                        "given": [
+                            "test_first_name2"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/ohterOrganization"
+                },
+                "id": "ba46524d-53e6-4845-bc19-039e943165f9",
+                "meta": {
+                    "versionId": "ce3e04ad-7d3e-4e90-926f-f85f57d5a9e2",
+                    "lastUpdated": "2023-12-07T13:47:07.574+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/5ad95710-86c2-42a7-ac8b-a563563e6491",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "5ad95710-86c2-42a7-ac8b-a563563e6491",
+                "name": [
+                    {
+                        "family": "UpdatedFamilyName",
+                        "given": [
+                            "test_first_name1"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/bbraun_organization_id"
+                },
+                "meta": {
+                    "versionId": "469f81f5-20d4-4416-8ccc-e96cde468a4a",
+                    "lastUpdated": "2023-12-07T13:43:49.683+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/da2f5ee7-2b71-4094-bca2-af96660eb128",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "test_family_name2",
+                        "given": [
+                            "test_first_name2"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/ohterOrganization"
+                },
+                "id": "da2f5ee7-2b71-4094-bca2-af96660eb128",
+                "meta": {
+                    "versionId": "ab9a132f-5daf-4852-ae53-0d841c499f87",
+                    "lastUpdated": "2023-12-07T13:43:47.808+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/4ff297f4-e363-4e24-9717-92ce06d6cffb",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "4ff297f4-e363-4e24-9717-92ce06d6cffb",
+                "name": [
+                    {
+                        "family": "UpdatedFamilyName",
+                        "given": [
+                            "test_first_name1"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/bbraun_organization_id"
+                },
+                "meta": {
+                    "versionId": "6b1a8dec-3eb3-4c9c-ae43-585d60a6cdf3",
+                    "lastUpdated": "2023-12-07T13:33:54.730+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://server.fire.ly/R4/Patient/19971fc3-387a-4266-8243-89dd827b441d",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "family": "test_family_name2",
+                        "given": [
+                            "test_first_name2"
+                        ]
+                    }
+                ],
+                "birthDate": "2023-01-01",
+                "managingOrganization": {
+                    "reference": "https://server.fire.ly/R4/Organization/ohterOrganization"
+                },
+                "id": "19971fc3-387a-4266-8243-89dd827b441d",
+                "meta": {
+                    "versionId": "5f0e794b-27dc-4c1c-8326-ef590f502a08",
+                    "lastUpdated": "2023-12-07T13:33:52.307+00:00"
+                }
+            }
+        }
+    ],
+    "total": 7243,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://server.fire.ly/R4/Patient?_total=accurate&_count=10&_skip=0"
+        },
+        {
+            "relation": "next",
+            "url": "https://server.fire.ly/R4/1270b208-cb11-488e-a7a2-721f6f85fcde"
+        },
+        {
+            "relation": "last",
+            "url": "https://server.fire.ly/R4/0df8fbd4-c7e7-4e46-93af-aef1801be5ff"
+        }
+    ],
+    "id": "f9454761-6c9f-4921-8fb3-29a23e294118"
+}
